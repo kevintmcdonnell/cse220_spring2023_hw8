@@ -27,6 +27,11 @@ test:
 	@mkdir -p $(TSTD).out
 	@$(TSTD)/$(TESTS) --full-stats --verbose --json=$(TEST_RESULTS) -j1
 
+test_faster:
+	@rm -fr $(TSTD).out
+	@mkdir -p $(TSTD).out
+	@$(TSTD)/$(TESTS) --full-stats --verbose --json=$(TEST_RESULTS)
+
 clean:
 	rm -fr $(TSTD).out $(TSTD)/$(TESTS) $(TEST_RESULTS)
 

@@ -27,4 +27,4 @@ jobs:
         sudo ldconfig
         cd ..
         make
-        make test
+        make test_faster
