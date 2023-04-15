@@ -7,7 +7,6 @@ PUT YOUR OWN TEST CASES IN student_tests.c
 
 static char test_log_outfile[100];
 
-// java -jar MarsFall2020.jar hwk8.asm --noGui --main -q -n 50000 --argv R 0x01f11b9d
 void run_using_system(char *test_name, char *args) {
     char *mars_jar = "./MarsFall2020.jar";
     assert(access(mars_jar, F_OK) == 0);

@@ -1,4 +1,4 @@
 #include "unit_tests.h"
 
-TestSuite(student_output, .timeout=TEST_TIMEOUT);
+TestSuite(student_tests, .timeout=TEST_TIMEOUT);
 
